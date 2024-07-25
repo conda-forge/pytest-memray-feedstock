@@ -1,5 +1,5 @@
 {% set name = "pytest-memray" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest_memray-{{ version }}.tar.gz
-  sha256: 364152252afd563fc8b58459325f360030d2b0d5673896018a68badb35402339
+  sha256: c18fa907d2210b42f4096c093e2d3416dfc002dcaa450ef3f9ba819bc3dd8f5f
 
 build:
   noarch: python
