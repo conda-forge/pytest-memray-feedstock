@@ -18,12 +18,14 @@ requirements:
   host:
     - python {{ python_min }}
     - hatchling >=1.11.1
-    - hatch-vcs >=0.2
+- hatchling >=1.12.2
+- hatch-vcs >=0.3
     - pip
   run:
     - python >={{ python_min }}
     - pytest >=7.2
-    - memray >=1.4.1
+- pytest >=8.0
+- memray >=1.19.1
 
 test:
   imports:
